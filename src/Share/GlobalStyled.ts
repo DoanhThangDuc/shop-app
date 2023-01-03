@@ -1,0 +1,16 @@
+import { createGlobalStyle } from "styled-components";
+export const GlobalStyle = createGlobalStyle`
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    text-decoration: none;
+  }
+  html {
+    width: 100vw;
+    overflow-x: hidden;
+  }
+`;
+
+export default GlobalStyle;
